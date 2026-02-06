@@ -2,48 +2,135 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Sadewa Traveling</title>
+  <title>Sadewa Traveling | Umroh & Wisata Religi</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f7f7f7;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background-color: #f9faf8;
       color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+                  url("https://images.unsplash.com/photo-1589187775328-97f36a1a4e2e");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 90px 20px;
       text-align: center;
     }
-    header {
+
+    header h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #0b6e4f;
+      margin-bottom: 30px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .card h3 {
+      color: #0b6e4f;
+      margin-bottom: 10px;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .cta a {
+      display: inline-block;
       background-color: #0b6e4f;
       color: white;
-      padding: 50px 20px;
+      padding: 15px 30px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 16px;
     }
-    section {
-      padding: 40px 20px;
+
+    .cta a:hover {
+      background-color: #095a40;
     }
+
     footer {
-      background-color: #eee;
-      padding: 15px;
+      background-color: #0b6e4f;
+      color: white;
+      text-align: center;
+      padding: 20px;
       font-size: 14px;
     }
   </style>
 </head>
+
 <body>
 
 <header>
   <h1>Sadewa Traveling</h1>
-  <p>Melayani Perjalanan Ibadah dengan Amanah</p>
+  <p>
+    Mendampingi setiap langkah perjalanan Umroh dan wisata religi
+    menuju Baitullah dengan amanah, ketulusan, dan pelayanan terbaik.
+  </p>
 </header>
 
 <section>
-  <h2>Selamat Datang</h2>
-  <p>
-    Website resmi Sadewa Traveling, mendampingi setiap langkah perjalanan
-    Umroh dan wisata religi menuju Baitullah dengan amanah dan ketulusan.
-  </p>
+  <h2>Layanan Kami</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Paket Umroh</h3>
+      <p>Program Umroh nyaman, sesuai sunnah, dan dibimbing oleh tim berpengalaman.</p>
+    </div>
+    <div class="card">
+      <h3>Wisata Religi</h3>
+      <p>Perjalanan religi penuh makna ke destinasi bersejarah Islam.</p>
+    </div>
+    <div class="card">
+      <h3>Pendampingan Jamaah</h3>
+      <p>Pelayanan dari pendaftaran hingga kepulangan dengan penuh tanggung jawab.</p>
+    </div>
+  </div>
+
+  <div class="cta">
+    <a href="https://wa.me/6282122003230" target="_blank">
+      Hubungi Kami via WhatsApp
+    </a>
+  </div>
 </section>
 
 <footer>
-  © 2026 Sadewa Traveling
+  © 2026 Sadewa Traveling | Umroh & Wisata Religi
 </footer>
 
 </body>
